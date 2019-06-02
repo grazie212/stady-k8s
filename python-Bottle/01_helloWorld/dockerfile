@@ -1,0 +1,18 @@
+FROM python
+
+MAINTAINER Yuta Ishihara <crazy.grazie212@gmail.com>
+
+# ユーザ作成
+RUN groupadd web
+RUN useradd -d /home/bottle -m bottle
+
+# bottleを使ったサーバ起動ファイルをコピー
+ADD server.py /home/bottle/server.py
+
+# bottleをインストール
+RUN pip install bottle
+
+# ポートはserver.pyと合わせて8080にし、サーバ起動ファイルを新しく作成した"bottle"ユーザで起動
+EXPOSE 8080
+ENTRYPOINT ["/usr/local/bin/python", "/home/bottle/server.py"]
+USER bottle
