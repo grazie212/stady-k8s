@@ -58,7 +58,7 @@ Gitを使った構成管理について学ぶ
 4. ローカルリポジトリにコミットする(永久不変に保持するスナップショットとしてGitディレクトリに格納すること)
 5. ローカルで作業が完了したら、リモートリポジトリにプッシュする
 
-![Gitでの開発の流れ](https://github.com/grazie212/stady-k8s/tree/master/studyGroup/img/git_01.jpg)
+![Gitでの開発の流れ](https://raw.githubusercontent.com/grazie212/stady-k8s/master/studyGroup/img/git_01.jpg)
 
 ## とりあえずGitを使えるようにする
 
@@ -120,7 +120,7 @@ Gitにはブランチという強力な機能があります。この機能の�
 
 ザックリした概要は以下の通りです。
 
-![Gitでの開発の流れ](https://github.com/grazie212/stady-k8s/tree/master/studyGroup/img/git_02.jpg)
+![Gitでの開発の流れ](https://raw.githubusercontent.com/grazie212/stady-k8s/master/studyGroup/img/git_02.jpg)
 
 開発ブランチを汚すことなく、作業者は開発することができます。また、評価者が意図しないファイルの更新を防ぐこともできます。また、Gitには強力なマージ機能があるので、大体は自動でマージしてくれます。(たまにコンフリクトしますが、、、)
 
