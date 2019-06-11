@@ -1,33 +1,34 @@
-# 初めてPagesを使ってみる
+# 勉強会の流れ
 
-使い勝手はどんな感じだろうか？？
+## 進め方
 
-1. test
-2. testtest
-3. testtesttest
+---
 
-- list
-- listlist
-- listlistlist
+とりあえずは下記の感じで勉強会を進めたいと思います。
 
-テーブル
+しばらく慣れるまでは対面での開催になると思いますが、資料作成者が増えていくと対面開催は難しいと思いますので、資料をアップして好きな時間にSlackで議論しましょう。
 
-|a  |b  |c  |
-|---|---|---|
-|1  |2  |3  |
-|4  |5  |6  |
+ということで、GitHubおよびSlackのアカウントは取得しておいてくださ〜い
 
-> どんな感じか
+![勉強会の進め方](https://raw.githubusercontent.com/grazie212/stady-k8s/master/studyGroup/img/index01.jpg)
 
-**強調**
+実際にやってみて、イケてないところは改善していくつもりです。
 
-```python:hogehoge.py
-def hello():
-    return "Hello World\n"
-```
+## 資料のLink
 
-## h2
+---
 
-### h3
-
-#### h4
+- 構成管理
+  - バージョン管理システム(Git関連)
+    - [Git](https://grazie212.github.io/stady-k8s/studyGroup/Git/)
+    - [GitHub](https://grazie212.github.io/stady-k8s/studyGroup/GitHub/)
+    - [GitHubFlow]()
+    - [GitHub-Slack]()
+    - 
+- 基盤系
+  - Docker
+  - kubenetes(k8s)
+- アプリケーション系
+  - python
+  - java
+- セキュリティ系
